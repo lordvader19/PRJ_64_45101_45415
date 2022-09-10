@@ -1,0 +1,1 @@
+Testes não são aplicáveis neste caso uma vez que para testar a aplicação basta correr a imagem no docker
