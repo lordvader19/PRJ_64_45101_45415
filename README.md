@@ -19,9 +19,9 @@
 ### Organização das pastas
 - A pasta 00_Planeamento contém um ficheiro excel com a agenda de planeamento do projeto.
 - A pasta 01_Analise contém os casos de utilização desenvolvidos e os requisitos do sistema.
-- A pasta 02_Desenho contém imagens utilizdas no desenvolvimento do projeto
-- A pasta 03_Implementação contém o código desenvolvido
-- A pasta 04_Teste contém um txt chamado _nao_aplicavel
+- A pasta 02_Desenho contém imagens utilizdas no desenvolvimento do projeto.
+- A pasta 03_Implementação contém o código desenvolvido. Esta pasta apenas contém o código desenvolvido pastas com dependências foram apagadas uma vez que ocupavam bastante espaço
+- A pasta 04_Teste contém um txt chamado _nao_aplicavel.
 
 ### WARNING
 A primeira vez que se fizer build da imagem do docker irá consumir bastante memória e a máquina poderá ficar lenta. Não se recomenda a utilização para quem esteja a usar uma máquina menos potente. Em situações normais a primeira execução pode demorar até 20 minutos.
