@@ -59,7 +59,13 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
         />*/
       )}
       {
-        HighlightsPacks()
+        <Banner
+        src="/main-banner.svg"
+        headingText="The amazing world of Metaplex."
+        subHeadingText="Buy exclusive Metaplex NFTs."
+        actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
+        useBannerBg/>
+        //HighlightsPacks()
       }
       <Layout>
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
